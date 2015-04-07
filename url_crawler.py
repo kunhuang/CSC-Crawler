@@ -187,8 +187,8 @@ def main():
     # Read from command line
     category_list = ['firewalling', 'vpn', 'datacenter', "AAA-Identity-NAC", "WAN-Routing-Switching", "LAN-Routing-Switching"]
     if len(sys.argv) != 3 or str(sys.argv[1]) not in category_list:
-        print 'Usage: python detail_crawler.py [category] [number of pages]'
-        print 'Example: python detail_crawler.py ' + category_list[0] + ' 500'
+        print 'Usage: python url_crawler.py [category] [number of pages]'
+        print 'Example: python url_crawler.py ' + category_list[0] + ' 500'
         print 'Valid categories:'
         print category_list
         sys.exit(-1)
